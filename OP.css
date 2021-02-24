@@ -1,0 +1,99 @@
+/* links---------------------------------------*/
+a{color: black;}
+a:hover{color: blue;}
+a:active{color: black;}
+.active{background-color: yellow;}
+.listactive{font-style: italic;}
+/* text---------------------------------------*/
+h1,h2{
+  color:black;
+  font-family: helvetica;
+  font-size: 1.5vw;
+  line-height: 2vw;}
+h3{
+  color:black;
+  font-family: helvetica;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  text-align: justify;}
+h4{
+  color:black;
+  font-family: helvetica;
+  font-size: 1.3vw;
+  line-height: 1.6vw;
+  text-align:justify;}
+}
+p{
+  font-family: helvetica;
+  font-size: 1.3vw;}
+marquee{
+  width:100%;
+  height: auto;
+  line-height: auto;}
+
+/* layout----------------------------------*/
+.container-fluid{
+  margin-top: 2%;
+  position:relative;
+  }
+.row{
+  border-style;}
+.column{
+  float: left;
+  padding: 5px;
+}
+
+#sidebar{
+  text-align: right;}
+#summary{
+  color: white;
+  max-width:15vw;}
+#summary:hover{
+    color: black;}
+#writinglist{
+  text-align:justify;
+  margin-right: 5vw;}
+#zoombox{
+  padding-top: 15vh;}
+
+/* image carousel----------------------------*/
+.carousel-control-next{
+  filter: invert(60%);}
+.carousel-control-prev {
+    filter: invert(60%);}
+
+/* zoom box----------------------------------*/
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: relative;}
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 23vw;
+  height: 23vw;
+}
+
+/* images----------------------------------*/
+#printer{
+  position: fixed;
+  width: 45vw;}
+#self{
+  max-width: 40vw;
+  padding-top: 10vh}
+#vrboy{
+  margin-top: 5vh;
+  width: 15vw;}
+#books{
+  max-height: 40vh;
+  border-style: solid;
+  border-width: thin;
+  border-color: #DCDCDC;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="OP.css">
+
+    <link rel="icon" type="gif" href="assets/GIF.gif">
+
+    <body onLoad="scrlsts()">
+
+    <script language="JavaScript">
+      var scrl = " Overhead Projector";
+      function scrlsts() {
+      scrl = scrl.substring(1, scrl.length) + scrl.substring(0, 1);
+      document.title = scrl;
+      setTimeout("scrlsts()", 300);}
+    </script>
+  </head>
+
+<body>
+
+<!--sidebar-->
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-2" id="sidebar">
+        <div class="position-fixed">
+          <h1><a href="index.html"> Kathleen Gorman </a></h1>
+          <h2><a href="about.html"> about </a></h2>
+          <h2><a href="prints.html"> prints </a></h2>
+          <h2><a href="publications.html"> publications </a></h2>
+                <h2 class="active"> <marquee onmouseover="this.stop();" onmouseout="this.start();" direction="left">
+                <a href= "chewonthis.html"> writing </a></marquee></h2>
+          <h2><a href="other.html">other work</a></h2>
+
+          <img src="assets/vrboy/12.jpg" id="vrboy" class="img-fluid" alt="boy wearing VR headset">
+        </div>
+      </div>
+<!--sidebar end-->
+
+<!--2nd column-->
+      <div class="col-sm-2"  id="summary">
+            <div class="position-fixed">
+                <h4><a href="chewonthis.html">Chew On This!</a></h4>
+                <br>
+                <h4><a class="active" href="fhmotxt.html">Fabricated Hybrid of <br> Machine and Organism</a></h4>
+                <br>
+                <h4><a href="window.html"><i>Isa Genzken: Window <br></i> Review</a></h4>
+                </br>
+                <h4><a href="slbmreview.html"><i>Second Life Business <br> Meetings</i> Review</a></h4>
+            </div>
+      </div>
+<!--2nd column end-->
+
+<!-- page content -->
+      <div class="col-sm-7" id="main">
+        <img class="img-fluid" src="assets/writing/fp1.png" width="550">
+        <img class="img-fluid" src="assets/writing/fp2.png" width="550">
+      </div>
+<!--page content end-->
+
+  </div>
+</div>
+
+<!--JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
