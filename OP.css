@@ -45,10 +45,10 @@ marquee{
 
 #sidebar{
   text-align: right;}
-#summary{
+#midbar{
   color: white;
   max-width:15vw;}
-#summary:hover{
+#midbar:hover{
     color: black;}
 #writinglist{
   text-align:justify;
